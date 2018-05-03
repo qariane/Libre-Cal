@@ -69,7 +69,7 @@ public class TheCal {//Authored by Vaibhav Thakkar, Ariane Quenum, Michael Woelf
 	currentMonth = Month; //Match month and year
 	currentYear = Year;
 		
-	String[] headers = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun",}; //All headers
+	String[] headers = {"Sun","Mon", "Tue", "Wed", "Thu", "Fri", "Sat"}; //All headers
 	for (int i=0; i<7; i++){
 	mtabelCal.addColumn(headers[i]);
 	}
